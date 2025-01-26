@@ -7,7 +7,7 @@ import getpass
 from dotenv import load_dotenv
 
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro",
-                             api_key="AIzaSyBpOIjzf-XGOTii8iJQ5ZeXBw1i87PfS3A",
+                             api_key="your_api_key",
                              temprature=0, max_tokens=None, timeout=None,
                              max_retries=2)
 
